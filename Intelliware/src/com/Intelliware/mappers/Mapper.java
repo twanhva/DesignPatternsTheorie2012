@@ -47,7 +47,7 @@ public class Mapper<O, K> implements IMapper<K> {
         if(mapStategy.containsKey(key)) {
             mapStategy.get(key).performAction();
         } else {
-            throw new InvalidKeyException("The key " + key + " is not available for this device");
+            throw new InvalidKeyException("The key '" + key + "' is not programmed for this device");
         }
     }
     

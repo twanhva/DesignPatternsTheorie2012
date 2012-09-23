@@ -20,6 +20,7 @@ public class Application {
         Thermostat thermostat = new Thermostat();
         OutdoorLight outdoorLight = new OutdoorLight();
         
+        /*
         IMapper deviceMapper = new ThermostatMapper(thermostat);
         for(int key : new int[] {0,1,2,3,4}) {
             try {
@@ -51,6 +52,7 @@ public class Application {
                 System.out.println(ex.getMessage());
             }
         }
+        */
         
     }
 }

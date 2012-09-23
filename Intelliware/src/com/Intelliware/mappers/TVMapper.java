@@ -15,6 +15,7 @@ public class TVMapper extends Mapper<TV, Integer> {
     
     public TVMapper(TV tv) {
         super(tv);
+        
         bindKey(0, new IAction() {
 
             @Override

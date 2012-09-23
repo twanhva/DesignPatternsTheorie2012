@@ -4,6 +4,7 @@ import com.Intelliware.core.IAction;
 import com.Intelliware.core.IMapper;
 import com.Intelliware.devices.OutdoorLight;
 import com.Intelliware.devices.Thermostat;
+import com.Intelliware.gui.GUIApplication;
 import com.Intelliware.mappers.Mapper;
 import com.Intelliware.mappers.ThermostatMapper;
 
@@ -11,14 +12,16 @@ import com.Intelliware.mappers.ThermostatMapper;
  *
  * @author Twan
  */
-public class Application {
-
+public class Application {   
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Thermostat thermostat = new Thermostat();
-        OutdoorLight outdoorLight = new OutdoorLight();
+       
+        
+//        Thermostat thermostat = new Thermostat();
+//        OutdoorLight outdoorLight = new OutdoorLight();
         
         /*
         IMapper deviceMapper = new ThermostatMapper(thermostat);
@@ -55,4 +58,5 @@ public class Application {
         */
         
     }
+
 }

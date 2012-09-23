@@ -1,6 +1,6 @@
 package com.Intelliware.devices;
 
-import com.Intelliware.mappers.AbstractHashMapper;
+import com.Intelliware.mappers.Mapper;
 import com.Intelliware.core.IAction;
 import com.Intelliware.core.IMapper;
 import com.Intelliware.core.InvalidKeyException;

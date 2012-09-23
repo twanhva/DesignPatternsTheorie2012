@@ -11,7 +11,7 @@ import com.Intelliware.devices.Thermostat;
  *
  * @author Twan
  */
-public class ThermostatMapper extends AbstractHashMapper<Thermostat, Integer> {
+public class ThermostatMapper extends Mapper<Thermostat, Integer> {
 
     public ThermostatMapper(Thermostat thermostat) {
         super(thermostat);

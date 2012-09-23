@@ -4,7 +4,7 @@ import com.Intelliware.core.IAction;
 import com.Intelliware.core.IMapper;
 import com.Intelliware.devices.OutdoorLight;
 import com.Intelliware.devices.Thermostat;
-import com.Intelliware.mappers.AbstractHashMapper;
+import com.Intelliware.mappers.Mapper;
 import com.Intelliware.mappers.ThermostatMapper;
 
 /**
@@ -28,7 +28,7 @@ public class Application {
                 System.out.println(ex.getMessage());
             }
         }
-        deviceMapper = new AbstractHashMapper<OutdoorLight, Integer>(outdoorLight) {
+        deviceMapper = new Mapper<OutdoorLight, Integer>(outdoorLight) {
             {
                 bindKey(0, new IAction() {
                     @Override

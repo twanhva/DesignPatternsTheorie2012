@@ -4,7 +4,6 @@ import com.Intelliware.core.IAction;
 import com.Intelliware.core.IMapper;
 import com.Intelliware.devices.OutdoorLight;
 import com.Intelliware.devices.Thermostat;
-import com.Intelliware.gui.GUIApplication;
 import com.Intelliware.mappers.Mapper;
 import com.Intelliware.mappers.ThermostatMapper;
 
